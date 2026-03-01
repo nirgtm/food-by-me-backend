@@ -1,0 +1,67 @@
+[
+  {
+    "id": "biryani",
+    "name": "Biryani",
+    "cuisines": ["Indian", "Biryani"],
+    "area": "City Center",
+    "rating": 4.7,
+    "etaMin": 22,
+    "etaMax": 32,
+    "priceForTwo": 320,
+    "offer": "ITEMS AT ₹149",
+    "image": "/images/Biryani.jpg",
+    "description": "Fragrant dum biryani cooked in rich spices and slow steam."
+  },
+  {
+    "id": "burger",
+    "name": "Burger",
+    "cuisines": ["Fast Food", "Burgers"],
+    "area": "Station Road",
+    "rating": 4.4,
+    "etaMin": 18,
+    "etaMax": 28,
+    "priceForTwo": 240,
+    "offer": "BURGER COMBO ₹129",
+    "image": "/images/burger.jpg",
+    "description": "Juicy burgers with loaded toppings and crispy fries."
+  },
+  {
+    "id": "pizza",
+    "name": "Pizza",
+    "cuisines": ["Italian", "Pizza"],
+    "area": "Nehru Chowk",
+    "rating": 4.6,
+    "etaMin": 20,
+    "etaMax": 30,
+    "priceForTwo": 380,
+    "offer": "BUY 1 GET 1",
+    "image": "/images/Pizza.jpg",
+    "description": "Stone-baked pizza with classic sauces and premium cheese."
+  },
+  {
+    "id": "cake",
+    "name": "Cake",
+    "cuisines": ["Desserts", "Bakery"],
+    "area": "Main Market",
+    "rating": 4.6,
+    "etaMin": 25,
+    "etaMax": 35,
+    "priceForTwo": 400,
+    "offer": "FLAT 20% OFF",
+    "image": "/images/Cakes.jpg",
+    "description": "Fresh baked cakes and celebration pastries for every mood."
+  },
+  {
+    "id": "chinese",
+    "name": "Chinese",
+    "cuisines": ["Chinese", "Asian"],
+    "area": "Parasia Road",
+    "rating": 4.3,
+    "etaMin": 18,
+    "etaMax": 27,
+    "priceForTwo": 260,
+    "offer": "COMBO AT ₹159",
+    "image": "/images/Chinese.jpg",
+    "description": "Indo-Chinese classics with wok-fried flavor and sauces."
+  }
+]
