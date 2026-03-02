@@ -26,13 +26,7 @@ const localDevOriginPattern = /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/;
 const vercelPattern = /^https:\/\/.*\.vercel\.app$/;
 
 const corsOptions = {
-  origin(origin, callback) {
-    if (!origin) return callback(null, true);
-    if (allowedOrigins.has(origin) || localDevOriginPattern.test(origin) || vercelPattern.test(origin)) {
-      return callback(null, true);
-    }
-    return callback(new Error(`CORS blocked for origin: ${origin}`));
-  },
+  origin: true, // Allow all origins for now
   credentials: true,
   optionsSuccessStatus: 200
 };
